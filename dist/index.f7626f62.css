@@ -45,8 +45,8 @@ img {
 }
 
 .search-form input {
-  background-color: #f0f8ff;
-  border-color: azure;
+  background-color: #d5d9dc;
+  border-color: #696969;
   border-radius: 5px;
   outline: none;
   margin-top: 20px;
@@ -54,11 +54,10 @@ img {
 }
 
 .search-form button {
+  height: 36px;
   background-color: #0000;
-  border: none;
-  position: absolute;
-  bottom: 20%;
-  right: 1px;
+  border: 1px solid #696969;
+  box-shadow: 0 1px 1px #0000001f, 0 4px 4px #0000000f, 1px 4px 6px #00000029;
 }
 
 .loader {

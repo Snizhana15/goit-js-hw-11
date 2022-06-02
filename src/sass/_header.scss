@@ -17,17 +17,17 @@
   margin-top: 20px;
   padding: 8px;
   outline: none;
-  background-color: aliceblue;
-  border-color: azure;
+  background-color: rgb(213, 217, 220);
+  border-color: dimgrey;
   border-radius: 5px;
 }
 
 .search-form button {
-  position: absolute;
-  right: 1px;
-  bottom: 20%;
   background-color: transparent;
-  border: none;
+  height: 36px;
+  border: 1px solid dimgrey;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .loader {
